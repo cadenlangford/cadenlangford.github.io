@@ -398,3 +398,60 @@ footer p {
     border-bottom: none;
   }
 }
+.project-gallery{
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:40px;
+
+margin-top:50px;
+
+}
+
+.gallery-item{
+
+background:white;
+
+padding:20px;
+
+border-radius:12px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+transition:.25s;
+
+}
+
+.gallery-item:hover{
+
+transform:translateY(-6px);
+
+}
+
+.gallery-item img{
+
+width:100%;
+
+border-radius:8px;
+
+margin-bottom:18px;
+
+}
+
+.gallery-item h4{
+
+margin-bottom:10px;
+
+color:#15324b;
+
+}
+
+.gallery-item p{
+
+color:#555;
+
+line-height:1.6;
+
+}
